@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@drawable/bubu"
+    tools:context=".BugReportingActivity">
+
+    <TextView
+        android:id="@+id/TextIntrebareRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unde ati descoperit problema?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="359dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="116dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.692"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.003">
+
+        <RadioButton
+            android:id="@+id/RadioAutentificare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Autentificare" />
+
+        <RadioButton
+            android:id="@+id/RadiotBaza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Baza de date" />
+
+        <RadioButton
+            android:id="@+id/RadioHarta"
+            android:layout_width="118dp"
+            android:layout_height="32dp"
+            android:text="Harta" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/Problema"
+        android:layout_width="347dp"
+        android:layout_height="168dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Scrieti aici detaliat ce problema ati avut, incluzand si pasii exacti pentru recrearea problemei aparute"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Trimite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trimite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759" />
+
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938" />
+
+    <Button
+        android:id="@+id/test1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST BD"
+        app:layout_constraintBottom_toTopOf="@+id/Back"
+        app:layout_constraintEnd_toStartOf="@+id/test2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Trimite" />
+
+    <Button
+        android:id="@+id/test2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="80dp"
+        android:text="TEST TEXT"
+        app:layout_constraintBottom_toTopOf="@+id/Back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Trimite" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

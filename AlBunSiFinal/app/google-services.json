@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "599503965918",
+    "firebase_url": "https://albunsifinal.firebaseio.com",
+    "project_id": "albunsifinal",
+    "storage_bucket": "albunsifinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:599503965918:android:975129af37b2fc6c953c4f",
+        "android_client_info": {
+          "package_name": "com.example.albunsifinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "599503965918-k3kuechj5v1jo1simi2u2e4t9f7hred0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.albunsifinal",
+            "certificate_hash": "57a2b6633dc72c0fcea5ed75fef69a11ceae2a41"
+          }
+        },
+        {
+          "client_id": "599503965918-d5flgadm2mlvf5tvhebdlmqath26rfj5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr3OuD0AMpffWm8KVadcXZwGkzFTTW0LA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "599503965918-d5flgadm2mlvf5tvhebdlmqath26rfj5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
